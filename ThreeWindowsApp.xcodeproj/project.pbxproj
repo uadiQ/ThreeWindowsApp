@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1C57C2281F992B35000F7CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57C2271F992B35000F7CAD /* AppDelegate.swift */; };
-		1C57C22A1F992B35000F7CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57C2291F992B35000F7CAD /* ViewController.swift */; };
 		1C57C22D1F992B35000F7CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C57C22B1F992B35000F7CAD /* Main.storyboard */; };
 		1C57C22F1F992B35000F7CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C57C22E1F992B35000F7CAD /* Assets.xcassets */; };
 		1C57C2321F992B35000F7CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C57C2301F992B35000F7CAD /* LaunchScreen.storyboard */; };
+		1C57C23A1F993D1F000F7CAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57C2391F993D1F000F7CAD /* MainViewController.swift */; };
+		1C57C23C1F993D93000F7CAD /* ImageHiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57C23B1F993D93000F7CAD /* ImageHiderViewController.swift */; };
+		1C57C23E1F993F16000F7CAD /* ColorPaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57C23D1F993F16000F7CAD /* ColorPaletteViewController.swift */; };
+		1C57C2401F993FC6000F7CAD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57C23F1F993FC6000F7CAD /* AboutViewController.swift */; };
+		1C57C2421F99482F000F7CAD /* UIButton+Shrink+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57C2411F99482F000F7CAD /* UIButton+Shrink+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C57C2241F992B35000F7CAD /* ThreeWindowsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeWindowsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C57C2271F992B35000F7CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C57C2291F992B35000F7CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C57C22C1F992B35000F7CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C57C22E1F992B35000F7CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C57C2311F992B35000F7CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C57C2331F992B35000F7CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C57C2391F993D1F000F7CAD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1C57C23B1F993D93000F7CAD /* ImageHiderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHiderViewController.swift; sourceTree = "<group>"; };
+		1C57C23D1F993F16000F7CAD /* ColorPaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteViewController.swift; sourceTree = "<group>"; };
+		1C57C23F1F993FC6000F7CAD /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1C57C2411F99482F000F7CAD /* UIButton+Shrink+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Shrink+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				1C57C2271F992B35000F7CAD /* AppDelegate.swift */,
-				1C57C2291F992B35000F7CAD /* ViewController.swift */,
 				1C57C22B1F992B35000F7CAD /* Main.storyboard */,
 				1C57C22E1F992B35000F7CAD /* Assets.xcassets */,
 				1C57C2301F992B35000F7CAD /* LaunchScreen.storyboard */,
 				1C57C2331F992B35000F7CAD /* Info.plist */,
+				1C57C2391F993D1F000F7CAD /* MainViewController.swift */,
+				1C57C23B1F993D93000F7CAD /* ImageHiderViewController.swift */,
+				1C57C23D1F993F16000F7CAD /* ColorPaletteViewController.swift */,
+				1C57C23F1F993FC6000F7CAD /* AboutViewController.swift */,
+				1C57C2411F99482F000F7CAD /* UIButton+Shrink+Extension.swift */,
 			);
 			path = ThreeWindowsApp;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C57C22A1F992B35000F7CAD /* ViewController.swift in Sources */,
+				1C57C2421F99482F000F7CAD /* UIButton+Shrink+Extension.swift in Sources */,
+				1C57C23E1F993F16000F7CAD /* ColorPaletteViewController.swift in Sources */,
 				1C57C2281F992B35000F7CAD /* AppDelegate.swift in Sources */,
+				1C57C23C1F993D93000F7CAD /* ImageHiderViewController.swift in Sources */,
+				1C57C2401F993FC6000F7CAD /* AboutViewController.swift in Sources */,
+				1C57C23A1F993D1F000F7CAD /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
